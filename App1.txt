@@ -1,0 +1,140 @@
+App1  – Workforce Time & Project Management System
+ App is an enterprise‑grade workforce management solution designed to track employee work hours, shifts, and project allocations with high accuracy and performance.
+Key Capabilities
+
+Track daily work hours and shift schedules
+Allocate time against multiple projects
+Provide near real‑time insights into resource utilization
+Secure access using Azure Active Directory authentication
+
+Architecture & Technology Stack
+
+React UI
+
+Provides an intuitive and responsive user interface
+Sends API requests and renders server responses dynamically
+
+
+SWR Data Caching
+
+Optimizes performance by caching API responses
+Reduces redundant network calls and improves user experience
+
+
+Node.js Proxy Layer
+
+Acts as an intermediary between UI and backend services
+Handles authentication, request forwarding, and response transformation
+
+
+MSAL Azure AD Authentication
+
+Ensures secure, role‑based access using Microsoft Azure Active Directory
+
+
+API Server
+
+Processes business logic
+Returns validated and structured responses to the client
+
+
+
+Impact
+
+Improved accuracy in time tracking
+Reduced latency through intelligent data caching
+Enhanced security using enterprise authentication standards
+
+
+🎓 Mentor App – Internal Mentorship & Professional Growth Platform
+Mentor App is a web‑based mentorship platform developed for Hexaware to connect mentors and mentees, enabling structured professional growth and knowledge sharing across the organization.
+Key Capabilities
+
+Mentor and mentee profile management
+Mentor‑mentee matching based on skills and interests
+Session scheduling and engagement tracking
+Centralized mentorship data management
+
+Architecture & Technology Stack
+
+React
+
+Renders dynamic UI components
+Handles user interactions and API communication
+Updates UI based on backend responses
+
+
+Express + Node.js
+
+Exposes RESTful APIs
+Implements core business logic and request validation
+Manages user workflows and data processing
+
+
+MongoDB
+
+Stores mentorship data as flexible, JSON‑like documents
+Enables scalable and efficient data retrieval
+
+
+
+Impact
+
+Encouraged a culture of continuous learning
+Simplified mentor‑mentee engagement workflows
+Scalable backend design supporting organizational growth
+
+
+🚀 AR Enrichment App – Associate Request Processing System
+AR Enrichment App is a strategic enterprise application designed to enrich and process Associate Requests (AR) generated from demand planning activities conducted in the Presto planning tool.
+Business Context
+
+Customer demand is initially created in Presto, Hexaware’s planning tool
+Planning considers resources, expenses, and timelines
+Resource planning data is captured in Presto’s Resource Loading Sheet
+Demand is converted into Associate Requests (AR) for fulfillment
+AR Enrichment App enhances and processes these requests for downstream systems
+
+Architecture & Technology Stack
+
+React UI
+
+Provides a clean and responsive interface
+Sends AR‑related requests and displays processed responses
+
+
+TanStack Query (Data Caching)
+
+Efficiently caches server data
+Improves performance and minimizes redundant API calls
+
+
+Node.js Proxy Layer
+
+Manages authentication and request routing
+Acts as a secure gateway between UI and backend services
+
+
+MSAL Azure AD Authentication
+
+Ensures secure enterprise access via Azure Active Directory
+
+
+Oracle API Server
+
+Handles AR processing logic
+Integrates with Oracle backend systems
+Returns validated and enriched request data
+
+
+
+Impact
+
+Streamlined AR processing lifecycle
+Reduced manual intervention in demand fulfillment
+Improved system performance and security compliance
+
+
+⭐ Portfolio Summary (Short Version)
+
+Delivered multiple enterprise‑scale web applications using React, Node.js, and modern data‑caching strategies, with secure Azure AD authentication and scalable backend integrations supporting workforce management, mentorship programs, and resource demand fulfillment.
